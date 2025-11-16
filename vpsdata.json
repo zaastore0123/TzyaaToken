@@ -1,0 +1,75 @@
+{
+  "vps_providers": [
+    {
+      "name": "Digital Ocean",
+      "type": "Cloud VPS",
+      "locations": ["Singapore", "New York", "London", "Frankfurt", "Toronto"],
+      "pricing": "$5/month - $80/month",
+      "features": ["SSD Storage", "99.99% Uptime", "API Access", "Backups"],
+      "rating": "4.8/5",
+      "website": "https://digitalocean.com"
+    },
+    {
+      "name": "Vultr",
+      "type": "Cloud VPS", 
+      "locations": ["Tokyo", "Singapore", "Sydney", "Seattle", "Amsterdam"],
+      "pricing": "$2.5/month - $640/month",
+      "features": ["Hourly Billing", "SSD Storage", "Multiple OS", "Backups"],
+      "rating": "4.7/5",
+      "website": "https://vultr.com"
+    },
+    {
+      "name": "Linode",
+      "type": "Cloud VPS",
+      "locations": ["Tokyo", "Singapore", "Frankfurt", "London"],
+      "pricing": "$5/month - $960/month", 
+      "features": ["SSD Storage", "API Access", "Backups", "NodeBalancers"],
+      "rating": "4.6/5",
+      "website": "https://linode.com"
+    },
+    {
+      "name": "AWS EC2",
+      "type": "Cloud VPS",
+      "locations": ["Asia Pacific", "US East", "EU West"],
+      "pricing": "Pay as you go",
+      "features": ["Scalable", "Multiple Instance Types", "Load Balancing"],
+      "rating": "4.5/5",
+      "website": "https://aws.amazon.com/ec2"
+    }
+  ],
+  "operating_systems": [
+    {
+      "name": "Ubuntu 22.04 LTS",
+      "type": "Linux",
+      "stability": "Very Stable",
+      "usage": "Web Servers, Development, General Purpose",
+      "package_manager": "APT"
+    },
+    {
+      "name": "CentOS 7",
+      "type": "Linux", 
+      "stability": "Stable",
+      "usage": "Enterprise Servers, Web Hosting",
+      "package_manager": "YUM"
+    },
+    {
+      "name": "Debian 11",
+      "type": "Linux",
+      "stability": "Very Stable", 
+      "usage": "Servers, Stable Environments",
+      "package_manager": "APT"
+    },
+    {
+      "name": "AlmaLinux 8",
+      "type": "Linux",
+      "stability": "Stable",
+      "usage": "Enterprise, CentOS Alternative",
+      "package_manager": "DNF"
+    }
+  ],
+  "storage_info": {
+    "ssd": "Fast I/O, better for databases and applications",
+    "hdd": "Economical, good for backups and file storage", 
+    "nvme": "Ultra fast, for high performance databases and applications"
+  }
+}
